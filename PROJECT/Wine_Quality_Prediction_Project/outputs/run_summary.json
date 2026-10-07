@@ -1,0 +1,34 @@
+{
+  "raw_rows": 1599,
+  "rows_after_duplicate_removal": 1359,
+  "duplicates_removed": 240,
+  "missing_values": 0,
+  "train_rows": 1087,
+  "test_rows": 272,
+  "target": "1 = Premium Quality (quality >= 6.5), 0 = Standard Quality",
+  "random_state": 42,
+  "test_size": 0.2,
+  "results": [
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.8786764705882353,
+      "Precision": 0.5833333333333334,
+      "Recall": 0.3783783783783784,
+      "F1-Score": 0.45901639344262296
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.8970588235294118,
+      "Precision": 0.7368421052631579,
+      "Recall": 0.3783783783783784,
+      "F1-Score": 0.5
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Accuracy": 0.8933823529411765,
+      "Precision": 0.6818181818181818,
+      "Recall": 0.40540540540540543,
+      "F1-Score": 0.5084745762711864
+    }
+  ]
+}

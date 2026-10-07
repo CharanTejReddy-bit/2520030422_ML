@@ -1,0 +1,9 @@
+ADVANCED WINE QUALITY PREDICTION - RESULTS
+
+Target: Premium Quality (quality >= 6.5) vs Standard Quality (quality < 6.5)
+Core algorithms: Decision Tree, Random Forest, Gradient Boosting
+Validation: stratified 3-fold CV during tuning; final evaluation on a held-out 20% test set
+Optimization metric: F1-score
+Consensus: weighted probability combination of the three tuned models
+
+See production_model_metrics.csv, consensus_metrics.csv and run_summary_advanced.json for full results.

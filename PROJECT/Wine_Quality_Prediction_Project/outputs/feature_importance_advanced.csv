@@ -1,0 +1,67 @@
+Model,Feature,Importance,Type,Std
+Decision Tree,fixed acidity,0.0,Native,
+Decision Tree,volatile acidity,0.0,Native,
+Decision Tree,citric acid,0.0,Native,
+Decision Tree,residual sugar,0.0,Native,
+Decision Tree,chlorides,0.0,Native,
+Decision Tree,free sulfur dioxide,0.0,Native,
+Decision Tree,total sulfur dioxide,0.1266063695698809,Native,
+Decision Tree,density,0.0,Native,
+Decision Tree,pH,0.0721514223578559,Native,
+Decision Tree,sulphates,0.22996610254430547,Native,
+Decision Tree,alcohol,0.5712761055279578,Native,
+Decision Tree,fixed acidity,0.0,Permutation,0.0
+Decision Tree,volatile acidity,0.0,Permutation,0.0
+Decision Tree,citric acid,0.0,Permutation,0.0
+Decision Tree,residual sugar,0.0,Permutation,0.0
+Decision Tree,chlorides,0.0,Permutation,0.0
+Decision Tree,free sulfur dioxide,0.0,Permutation,0.0
+Decision Tree,total sulfur dioxide,0.0,Permutation,0.0
+Decision Tree,density,0.0,Permutation,0.0
+Decision Tree,pH,0.03646014255813494,Permutation,0.012697298783696704
+Decision Tree,sulphates,0.10316666703137414,Permutation,0.029100800883278013
+Decision Tree,alcohol,0.289186945895912,Permutation,0.027921525420543918
+Random Forest,fixed acidity,0.061992764372930304,Native,
+Random Forest,volatile acidity,0.0958759213849751,Native,
+Random Forest,citric acid,0.07287744203215683,Native,
+Random Forest,residual sugar,0.026669749296151856,Native,
+Random Forest,chlorides,0.042220697734295556,Native,
+Random Forest,free sulfur dioxide,0.04123207692264625,Native,
+Random Forest,total sulfur dioxide,0.061990975610396806,Native,
+Random Forest,density,0.04181389756750952,Native,
+Random Forest,pH,0.049677796433361524,Native,
+Random Forest,sulphates,0.15970244475919992,Native,
+Random Forest,alcohol,0.3459462338863763,Native,
+Random Forest,fixed acidity,-0.016983945716340088,Permutation,0.026217914461645994
+Random Forest,volatile acidity,-0.02390417821580827,Permutation,0.04159423489056727
+Random Forest,citric acid,0.01380500122322017,Permutation,0.03627873242843924
+Random Forest,residual sugar,-0.012714062150681892,Permutation,0.011151852743016066
+Random Forest,chlorides,-0.03319454263116237,Permutation,0.017557083523969907
+Random Forest,free sulfur dioxide,-0.04609241693941676,Permutation,0.0073682610045303605
+Random Forest,total sulfur dioxide,-0.000871001479349831,Permutation,0.027662486880273642
+Random Forest,density,0.0022433610259193658,Permutation,0.014568713089616442
+Random Forest,pH,-0.016286502781946065,Permutation,0.028937427614091342
+Random Forest,sulphates,0.09032977256047411,Permutation,0.05952817778592012
+Random Forest,alcohol,0.24934051996404238,Permutation,0.0481538896724839
+Gradient Boosting,fixed acidity,0.08060597436127064,Native,
+Gradient Boosting,volatile acidity,0.0957449823816367,Native,
+Gradient Boosting,citric acid,0.06314697673804169,Native,
+Gradient Boosting,residual sugar,0.05248154534872885,Native,
+Gradient Boosting,chlorides,0.0493002388907696,Native,
+Gradient Boosting,free sulfur dioxide,0.059806597520174525,Native,
+Gradient Boosting,total sulfur dioxide,0.07663328273812468,Native,
+Gradient Boosting,density,0.06421198876572787,Native,
+Gradient Boosting,pH,0.0576935760641308,Native,
+Gradient Boosting,sulphates,0.1544204491802522,Native,
+Gradient Boosting,alcohol,0.24595438801114228,Native,
+Gradient Boosting,fixed acidity,-0.009122446588994304,Permutation,0.04362960630738712
+Gradient Boosting,volatile acidity,0.06156108041032214,Permutation,0.011736655324881778
+Gradient Boosting,citric acid,0.021982038227361556,Permutation,0.020036498994763292
+Gradient Boosting,residual sugar,0.03601136095645306,Permutation,0.0213910141250068
+Gradient Boosting,chlorides,0.021868207324512213,Permutation,0.011364875610293515
+Gradient Boosting,free sulfur dioxide,0.01498379797543974,Permutation,0.025330402944550263
+Gradient Boosting,total sulfur dioxide,0.06638227655638217,Permutation,0.041652525083953
+Gradient Boosting,density,0.08527292816387795,Permutation,0.010450775181558243
+Gradient Boosting,pH,0.019524165957461335,Permutation,0.035250371390220976
+Gradient Boosting,sulphates,0.18333810711337356,Permutation,0.09030598292107703
+Gradient Boosting,alcohol,0.29994004941696645,Permutation,0.032644123019282385

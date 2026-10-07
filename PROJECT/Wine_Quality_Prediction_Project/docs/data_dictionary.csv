@@ -1,0 +1,13 @@
+Feature,Description
+fixed acidity,Acidity from fixed acids
+volatile acidity,Acidity from volatile acids
+citric acid,Citric acid content
+residual sugar,Residual sugar remaining after fermentation
+chlorides,Chloride concentration
+free sulfur dioxide,Free sulfur dioxide
+total sulfur dioxide,Total sulfur dioxide
+density,Wine density
+pH,Acidity level (pH)
+sulphates,Sulphates concentration
+alcohol,Alcohol percentage
+quality,Original wine quality score

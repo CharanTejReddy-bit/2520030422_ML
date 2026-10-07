@@ -1,0 +1,162 @@
+{
+  "raw_rows": 1599,
+  "rows_after_duplicate_removal": 1359,
+  "duplicates_removed": 240,
+  "missing_values": 0,
+  "features": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol"
+  ],
+  "quality_threshold": 6.5,
+  "positive_class": "Premium Quality",
+  "negative_class": "Standard Quality",
+  "test_size": 0.2,
+  "random_state": 42,
+  "cv_folds": 3,
+  "tuning_iterations_per_model": 30,
+  "optimization_metric": "F1",
+  "weights": {
+    "Decision Tree": 0.32499977888894266,
+    "Random Forest": 0.3538940178958456,
+    "Gradient Boosting": 0.3211062032152117
+  },
+  "consensus_threshold": 0.32000000000000006,
+  "baseline_results": [
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.8786764705882353,
+      "Precision": 0.5833333333333334,
+      "Recall": 0.3783783783783784,
+      "F1-Score": 0.45901639344262296,
+      "Balanced Accuracy": 0.6679125934445084,
+      "ROC-AUC": 0.770615296147211,
+      "PR-AUC": 0.3950709770866936,
+      "Version": "Baseline"
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.8970588235294118,
+      "Precision": 0.7368421052631579,
+      "Recall": 0.3783783783783784,
+      "F1-Score": 0.5,
+      "Balanced Accuracy": 0.6785508913168488,
+      "ROC-AUC": 0.8651523864289823,
+      "PR-AUC": 0.5955952427079179,
+      "Version": "Baseline"
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Accuracy": 0.8897058823529411,
+      "Precision": 0.6521739130434783,
+      "Recall": 0.40540540540540543,
+      "F1-Score": 0.5,
+      "Balanced Accuracy": 0.685681426106958,
+      "ROC-AUC": 0.8913168487636574,
+      "PR-AUC": 0.6142634280588994,
+      "Version": "Baseline"
+    }
+  ],
+  "tuned_results": [
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.7757352941176471,
+      "Precision": 0.35714285714285715,
+      "Recall": 0.8108108108108109,
+      "F1-Score": 0.49586776859504134,
+      "Balanced Accuracy": 0.7905117883841288,
+      "ROC-AUC": 0.8331224841863141,
+      "PR-AUC": 0.48172334845010367,
+      "Version": "Tuned",
+      "CV F1 Mean": 0.4596634650973425,
+      "CV F1 Std": 0.028644533264273634
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.8639705882352942,
+      "Precision": 0.5,
+      "Recall": 0.4594594594594595,
+      "F1-Score": 0.4788732394366197,
+      "Balanced Accuracy": 0.6935595169637723,
+      "ROC-AUC": 0.8748706152961472,
+      "PR-AUC": 0.5577870002450631,
+      "Version": "Tuned",
+      "CV F1 Mean": 0.500530034510617,
+      "CV F1 Std": 0.09037395596673627
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Accuracy": 0.8933823529411765,
+      "Precision": 0.6818181818181818,
+      "Recall": 0.40540540540540543,
+      "F1-Score": 0.5084745762711864,
+      "Balanced Accuracy": 0.6878090856814261,
+      "ROC-AUC": 0.894767107533065,
+      "PR-AUC": 0.5865676635926727,
+      "Version": "Tuned",
+      "CV F1 Mean": 0.45415658600984177,
+      "CV F1 Std": 0.034442294148355646
+    }
+  ],
+  "consensus_result": {
+    "Model": "Weighted 3-Model Consensus",
+    "Accuracy": 0.8051470588235294,
+    "Precision": 0.3888888888888889,
+    "Recall": 0.7567567567567568,
+    "F1-Score": 0.5137614678899083,
+    "Balanced Accuracy": 0.7847613571017826,
+    "ROC-AUC": 0.8695802185163887,
+    "PR-AUC": 0.6086616376512727,
+    "Version": "Consensus"
+  },
+  "search_summary": {
+    "Decision Tree": {
+      "best_params": {
+        "model__min_samples_split": 10,
+        "model__min_samples_leaf": 4,
+        "model__max_depth": 3,
+        "model__criterion": "entropy",
+        "model__class_weight": "balanced"
+      },
+      "best_cv_f1": 0.4596634650973425,
+      "cv_f1_std": 0.028644533264273634,
+      "search_iterations": 5,
+      "cv_folds": 3
+    },
+    "Random Forest": {
+      "best_params": {
+        "model__n_estimators": 200,
+        "model__min_samples_split": 5,
+        "model__min_samples_leaf": 4,
+        "model__max_features": 0.7,
+        "model__max_depth": 14,
+        "model__class_weight": "balanced_subsample"
+      },
+      "best_cv_f1": 0.500530034510617,
+      "cv_f1_std": 0.09037395596673627,
+      "search_iterations": 5,
+      "cv_folds": 3
+    },
+    "Gradient Boosting": {
+      "best_params": {
+        "model__subsample": 0.7,
+        "model__n_estimators": 200,
+        "model__min_samples_leaf": 5,
+        "model__max_depth": 4,
+        "model__learning_rate": 0.05
+      },
+      "best_cv_f1": 0.45415658600984177,
+      "cv_f1_std": 0.034442294148355646,
+      "search_iterations": 5,
+      "cv_folds": 3
+    }
+  }
+}

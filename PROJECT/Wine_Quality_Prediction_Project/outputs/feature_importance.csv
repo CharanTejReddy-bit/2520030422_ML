@@ -1,0 +1,34 @@
+Model,Feature,Importance
+Decision Tree,fixed acidity,0.02479078204208507
+Decision Tree,volatile acidity,0.07661482206320275
+Decision Tree,citric acid,0.030490388785178204
+Decision Tree,residual sugar,0.0747866161441264
+Decision Tree,chlorides,0.027477415545282078
+Decision Tree,free sulfur dioxide,0.11081926768108219
+Decision Tree,total sulfur dioxide,0.06233964967251561
+Decision Tree,density,0.016932554046485748
+Decision Tree,pH,0.09781573925003967
+Decision Tree,sulphates,0.14893778799250218
+Decision Tree,alcohol,0.3289949767775001
+Random Forest,fixed acidity,0.07844927566463906
+Random Forest,volatile acidity,0.1009281493848191
+Random Forest,citric acid,0.08087502935451524
+Random Forest,residual sugar,0.05913120387519191
+Random Forest,chlorides,0.07047974642842018
+Random Forest,free sulfur dioxide,0.06865159907444938
+Random Forest,total sulfur dioxide,0.08035156389014149
+Random Forest,density,0.08921903182330816
+Random Forest,pH,0.07316818176223046
+Random Forest,sulphates,0.12757330481697274
+Random Forest,alcohol,0.17117291392531228
+Gradient Boosting,fixed acidity,0.07778585945106962
+Gradient Boosting,volatile acidity,0.1003634208102236
+Gradient Boosting,citric acid,0.06167005897129021
+Gradient Boosting,residual sugar,0.03947685815121703
+Gradient Boosting,chlorides,0.04514615810068714
+Gradient Boosting,free sulfur dioxide,0.06204960306441968
+Gradient Boosting,total sulfur dioxide,0.0799348664971939
+Gradient Boosting,density,0.054648517494614385
+Gradient Boosting,pH,0.05888482401009598
+Gradient Boosting,sulphates,0.1610653751176347
+Gradient Boosting,alcohol,0.25897445833155375
